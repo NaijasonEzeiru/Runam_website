@@ -2,25 +2,30 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="./public/runam.png" />
+    <link rel="icon" type="image/png" href="./public/runam.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Righteous&family=Slackey&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="output.css" />
     <title>Runam</title>
   </head>
-  <body class="bg-white text-black text-sm md:text-lg">
+  <body class="bg-white text-black text-sm md:text-lg font-Inter">
     <header
       class="flex items-end h-24 pb-2 md:items-center justify-between px-11 md:px-36 min-[1200px]:px-36 md:h-36 w-full z-50 fixed bg-[#5C0404] top-0 text-white text-lg"
       id="nav-header"
     >
-      <a href="index.html" class="flex gap-1 items-center">
+      <a href="index.html" class="flex gap-6">
         <img
-          src="./public/runam.png"
+          src="./public/runam.svg"
           alt="runam logo"
           class="hidden min-[1200px]:block"
         />
         <span class="flex">
-          <p class="min-[1200px]:text-xl font-medium">Runam</p>
-          <p>&reg;</p>
+          <p class="lg:text-3xl font-medium">Runam</p>
         </span>
       </a>
       <nav
@@ -28,24 +33,24 @@
         class="flex bg-[#5C0404] gap-2 w-full top-24 md:top-36 left-0 absolute md:pl-32 transition-transform z-50 flex-col py-8 px-6 min-[1200px]:w-auto min-[1200px]:static min-[1200px]:bg-transparent min-[1200px]:flex-row min-[1200px]:translate-x-0 min-[1200px]:py-0 -translate-x-full"
       >
         <a href="about-us.html" class="hover:text-[#FA8809]">
-          <p class="table px-3 w-full cursor-pointer">About us</p>
+          <p class="table px-3 w-full cursor-pointer">About</p>
         </a>
         <hr class="opacity-20" />
         <a href="contact-us.html" class="hover:text-[#FA8809]">
-          <p class="table px-3 w-full cursor-pointer">Contact us</p>
+          <p class="table px-3 w-full cursor-pointer">Contact</p>
         </a>
-        <hr class="opacity-20" />
-        <a href="vision-statement.html" class="hover:text-[#FA8809]">
+        <!-- <hr class="opacity-20" /> -->
+        <!-- <a href="vision-statement.html" class="hover:text-[#FA8809]">
           <p class="table px-3 w-full cursor-pointer">Vision</p>
-        </a>
+        </a> -->
         <hr class="opacity-20" />
         <a href="privacy-policy.html" class="hover:text-[#FA8809]">
           <p class="table px-3 w-full cursor-pointer">Privacy policy</p>
         </a>
         <hr class="opacity-20" />
-        <a href="terms-of-service.html" class="hover:text-[#FA8809]">
+        <!-- <a href="terms-of-service.html" class="hover:text-[#FA8809]">
           <p class="table px-3 w-full cursor-pointer">Terms of service</p>
-        </a>
+        </a> -->
         <hr class="opacity-20" />
       </nav>
       <button
@@ -61,385 +66,334 @@
       </button>
     </header>
     <main>
-      <!-- <section
-        class="text-white bg-[#5C0404] md:pt-48 pt-28 flex flex-col lg:flex-row lg:justify-between gap-7 px-11 py-14 lg:pb-56 md:px-32"
-        ><div class="xl:w-[45%]">
-          <h1 class="font-black text-lg md:text-5xl mb-2 md:mb-6"
-            >A Digital Playground For
-            <span class="text-[#A66606]">Everyone.</span></h1
-          ><p class="md:text-2xl mb-6 xl:mb-16"
-            >Runam creates a social connection between business owners, artistes
-            and influencers while also offering bills payments and event
-            ticketing.</p
-          ><p class="md:text-2xl mb-6 xl:mb-16"
-            >From event tickets to social campaigns, influencers can also earn
-            money when they influence campaigns, runam app creates a digital
-            playground for everyone.</p
-          >
-          <span class="flex gap-2">
-            <a
-              href="https://apps.apple.com/ng/app/runam/id6446600036"
-              target="_blank">
-              <img
-                src="./public/apple-store.png"
-                alt="link to our app on apple store"
-                class="w-32 lg:w-60 lg:h-20 h-12" />
-            </a>
-            <a
-              href="https://play.google.com/store/apps/details?id=app.runamapp.app&pcampaignid=web_share"
-              target="_blank">
-              <img
-                src="./public/play-store.png"
-                alt="link to our app on playstore"
-                class="w-32 lg:w-60 lg:h-20 h-12" />
-            </a>
-          </span>
-        </div>
-        <img
-          src="public/hero-image.png"
-          alt="Illustartion of services we offer"
-          class="lg:w-[45%] lg:min-w-[45%]"
-      /></section> -->
-      <section></section>
       <section
-        class="px-11 py-11 md:px-0 md:flex-row-reverse md:items-center md:justify-between md:py-24 flex flex-col gap-5 md:bg-[#FDF9F9]"
+        class="text-white bg-[#5C0404] xl:pt-72 md:pt-56 pt-40 px-11 py-14 pb-28 lg:pb-52 md:px-32"
       >
-        <span class="md:w-[48%] md:pr-[9%]">
-          <h3 class="text-[#D0830F] font-black md:text-2xl md:mb-1">
-            Creating a social presence for
-            <span class="text-[#730707]">every business</span>
-          </h3>
-          <p>
-            We provide targeted social media presence, social media boost, music
-            and product advertisement through influencers, promote anything and
-            everything through our pool of influencers.
-          </p>
-        </span>
-        <img
-          src="public/social-presence.png"
-          alt="social media presence"
-          class="md:w-[47%]"
-        />
-      </section>
-      <section
-        class="bg-[#532929] text-white py-11 flex flex-col lg:flex-row-reverse gap-10"
-      >
-        <div class="px-11 lg:pr-14">
-          <h3 class="font-black mb-5 lg:mb-8 lg:text-2xl">
-            Bills <span class="text-[#A66606]">payment</span>
-          </h3>
-          <div class="flex flex-col gap-10 lg:gap-9">
-            <span
-              ><span class="flex gap-1 h-4 mb-2 lg:mb-3 items-center"
-                ><img src="./public/airtime.png" alt="phone icon" class="h-4" />
-                <h5 class="font-medium">Airtime purchase</h5></span
-              >
-              <p>
-                Stay connected effortlessly with our seamless airtime purchase
-                experience Recharge your mobile balance instantly and
-                conveniently through our user-friendly platform.
-              </p></span
-            >
-            <span
-              ><span class="flex gap-1 h-4 mb-2 items-center"
-                ><img
-                  src="./public/electricity.svg"
-                  alt="electricity icon"
-                  class="h-4"
-                />
-                <h5 class="font-medium">Electricity</h5></span
-              >
-              <p>
-                Experience uninterrupted convenience with our Power Subscription
-                service. Say goodbye to downtime and hello to constant energy
-                flow. Enjoy seamless access to power,with reliable support.
-              </p></span
-            >
-            <span
-              ><span class="flex gap-1 h-4 mb-2 items-center"
-                ><img
-                  src="./public/Component 101.png"
-                  alt="Data icon"
-                  class="h-4"
-                />
-                <h5 class="font-medium">Data</h5></span
-              >
-              <p>
-                Stay connected on the go with lightning-fast mobile data!
-                Stream, browse, and share seamlessly with our affordable-data
-                plans. Experience the freedom of reliable connectivity in your
-                pocket.
-              </p></span
-            >
-            <span
-              ><span class="flex gap-1 h-4 mb-2 items-center"
-                ><img src="./public/tv.svg" alt="TV icon" class="h-4" />
-                <h5 class="font-medium">Cable and Internet Tv</h5></span
-              >
-              <p>
-                Stay connected on the go with lightning-fast mobile data!
-                Stream, browse, and share seamlessly with our affordable-data
-                plans. Experience the freedom of reliable connectivity in your
-                pocket.
-              </p></span
-            >
-          </div>
-        </div>
-        <img
-          src="public/bills-payment.png"
-          alt="Our mobile app payment page"
-          class="pl-6 pr-6 lg:pl-12 lg:w-[39vw] object-contain lg:object-fill"
-        />
-      </section>
-      <section>
-        <div
-          class="flex flex-col gap-5 md:gap-12 pt-12 pb-16 md:pt-16 bg-[#FEFCFC]"
+        <p
+          class="text-3xl font-black md:text-6xl xl:text-[80px] lg:leading-none text-center mb-7 md:mb-12"
         >
-          <h3 class="text-[#6A0D0D] text-center md:text-2xl font-black">
-            Our <span class="text-[#A66606]">partners</span>
-          </h3>
-          <div class="flex gap-1 md:gap-2 justify-between px-6 md:px-36">
-            <span
-              class="flex items-center justify-center p-[0.3vw] border-2 rounded-full border-black w-[8%] aspect-square"
-            >
-              <img src="./public/ikedc.png" alt="ikedc" class="" />
-            </span>
-            <span
-              class="flex items-center justify-center p-[0.3vw] border-2 rounded-full border-black w-[8%] aspect-square"
-            >
-              <img
-                src="./public/ekedc.png"
-                alt="ekedc"
-                class="relative -top-[11%]"
-              />
-            </span>
-            <span
-              class="flex items-center justify-center p-[0.3vw] border-2 rounded-full border-black w-[8%] aspect-square"
-            >
-              <img src="./public/AEDC.png" alt="AEDC" class="" />
-            </span>
-            <span
-              class="flex items-center justify-center p-[0.3vw] border-2 rounded-full border-black w-[8%] aspect-square"
-            >
-              <img src="./public/IBEDC.png" alt="IBEDC" class="" />
-            </span>
-            <span
-              class="flex items-center justify-center p-[0.3vw] border-2 rounded-full border-black w-[8%] aspect-square"
-            >
-              <img src="./public/kaduna.png" alt="kaduna electric" class="" />
-            </span>
-            <span
-              class="flex items-center justify-center rounded-full w-[8%] aspect-square"
-            >
-              <img src="./public/ph.png" alt="porthacourt electric" class="" />
-            </span>
-            <span
-              class="flex items-center justify-center rounded-full w-[8%] aspect-square"
-            >
-              <img
-                src="./public/jos-electric.png"
-                alt="jos electric"
-                class=""
-              />
-            </span>
-            <span
-              class="flex items-center justify-center rounded-full w-[8%] aspect-square"
-            >
-              <img src="./public/kedco.png" alt="kedco" class="" />
-            </span>
-          </div>
-          <div class="flex gap-1 md:gap-2 justify-between px-6 md:px-48">
-            <img src="./public/gotv.png" alt="gotv" class="w-[8%]" /><img
-              src="./public/startime.png"
-              alt="startime"
-              class="w-[8%]"
-            /><img src="./public/mtn.png" alt="mtn" class="w-[8%]" />
-            <img src="./public/glo.png" alt="glo" class="w-[8%]" /><img
-              src="./public/airtel.png"
-              alt="airtel"
-              class="w-[8%]"
+          Payments made easy and simple.
+        </p>
+        <p class="text-lg text-center md:text-2xl xl:text-3xl">
+          Over 1 million bills paid every minute, join us and experience the
+          fastest way to pay.
+        </p>
+        <span
+          class="mt-14 md:mt-24 xl:mt-32 flex gap-7 md:gap-20 xl:gap-36 justify-center"
+        >
+          <a href=""
+            ><img
+              src="./public/monostore.png"
+              alt=""
+              class="w-28 h-12 xl:w-[344px] xl:h-32 hidden md:block sm:w-48 sm:h-24 lg:w-56 lg:h-28"
             /><img
-              src="./public/9mobile.png"
-              alt="Nine mobile"
-              class="w-[8%]"
-            /><img src="./public/show-max.png" alt="show max" class="w-[8%]" />
-          </div>
-          <div
-            class="flex gap-1 md:gap-2 justify-between px-7 md:px-36 items-center"
+              src="./public/monodat-mobile.png"
+              class="w-28 h-12 md:hidden sm:w-48 sm:h-24"
+            />
+          </a>
+          <!--  <span
+            class="bg-black rounded-md lg:rounded-[20px] pt-2.5 md:pt-6 pb-3.5 px-4 md:px-8 w-fit flex items-center flex-col"
           >
-            <img
-              src="public/flutterwave.png"
-              alt="flutterwave"
-              class="w-[14%] h-[10%]"
-            />
-            <img
-              src="public/paystack.png"
-              alt="paystack"
-              class="w-[14%] h-[10%]"
-            />
-            <img
-              src="public/redbiller.png"
-              alt="redbiller"
-              class="w-[14%] h-[10%]"
-            />
-            <img src="public/fincra.png" alt="fincra" class="w-[14%] h-[10%]" />
-            <img
-              src="public/monnify.png"
-              alt="monnify"
-              class="w-[14%] h-[10%]"
-            />
-          </div>
+            <a class="flex gap-1 md:gap-7 items-center">
+              <img
+                src="./public/monostore.svg"
+                class="h-7 w-7 md:w-[75px] md:h-[68px]"
+              />
+              <span
+                ><p
+                  class="text-[0.5rem] m-0 p-0 leading-3 md:text-lg md:font-extrabold"
+                >
+                  Download on
+                </p>
+                <p class="text-[10px] m-0 p-0 leading-3 md:text-2xl">
+                  Monodat
+                </p></span
+              >
+            </a>
+            <p class="text-xs font-extrabold">www.store.monodat.com</p> 
+          </span>-->
+          <!--  <a
+            class="bg-black rounded-md lg:rounded-[20px] pt-2.5 pb-3.5 pl-2 pr-4 w-fit flex items-center min-w-[113px]"
+          >
+             <img src="./public/apple.png" class="h-9 w-9" />
+            <span
+              ><p class="text-[0.5rem] m-0 p-0 leading-3">Download on</p>
+              <p class="text-[10px] m-0 p-0 leading-3">Applestore</p></span
+            > 
+          </a>-->
+          <a href=""
+            ><img
+              src="./public/apple-store.png"
+              alt=""
+              class="w-28 h-12 xl:w-[344px] xl:h-32 sm:w-48 sm:h-24 lg:w-56 lg:h-28"
+          /></a>
+        </span>
+      </section>
+      <section
+        class="px-6 pt-8 lg:pt-20 relative flex flex-col lg:flex-row gap-2 md:gap-5 xl:gap-10 sm:px-14 md:px-24 lg:px-32"
+      >
+        <div
+          class="shadow rounded-[20px] pb-16 pt-4 pl-7 md:pl-9 md:pr-16 md:pt-6 pr-14"
+        >
+          <img src="./public/pay-bills.png" class="w-11 h-9 md:w-14 md:h-14" />
+          <h3
+            class="text-lg pt-4 pb-3.5 md:text-2xl md:pb-9 md:pt-6 font-Righteous"
+          >
+            Pay bills seamlessly
+          </h3>
+          <p class="text-sm">
+            Settle your electricity, Cable Tv bills, buy cheap data, airtime,
+            giftcards, and fund bet wallets.
+          </p>
         </div>
         <div
-          class="bg-[#D9D9D9] pt-9 pb-14 px-11 lg:pl-32 lg:pr-0 lg:items-center lg:bg-[#FDF9F9] flex flex-col gap-5 lg:flex-row"
+          class="shadow rounded-[20px] pb-16 pt-4 pl-7 md:pl-9 md:pr-16 md:pt-6 pr-14"
         >
-          <div>
-            <h3 class="text-[#6A0D0D] font-black lg:text-2xl mb-3">
-              Digitized <span class="text-[#A66606]">Events ticketing</span>
-            </h3>
-            <p>
-              Our event ticketing service is a convenient and user-friendly
-              platform that allows individuals to purchase tickets for various
-              events, from concerts and sports games to theater productions and
-              festivals. It simplifies the ticket-buying process, often offering
-              digital ticket options, seat selection, and real-time event
-              information, ensuring a seamless and enjoyable experience for
-              event-goers. With secure payment processing, it provides a
-              reliable way for both organizers and attendees to manage and
-              access event tickets.
-            </p>
-          </div>
           <img
-            src="public/digital-ticketing.png"
-            alt="Events tickets"
-            class="lg:w-1/2 lg:min-w-[50%]"
+            src="./public/trade-giftcards.png"
+            class="w-11 h-9 md:w-14 md:h-14"
+          />
+          <h3
+            class="text-lg pt-4 pb-3.5 md:text-2xl md:pb-9 md:pt-6 font-Righteous"
+          >
+            Trade giftcards
+          </h3>
+          <p class="text-sm">
+            Trade your unused giftcards seamlessly and make withdrawal to your
+            bank for free.
+          </p>
+        </div>
+        <div
+          class="shadow rounded-[20px] pb-16 pt-4 pl-7 md:pl-9 md:pr-16 md:pt-6 pr-14"
+        >
+          <img src="./public/send.png" class="w-11 h-9 md:w-14 md:h-14" />
+          <h3
+            class="text-lg pt-4 pb-3.5 md:text-2xl md:pb-9 md:pt-6 font-Righteous"
+          >
+            Send money securely
+          </h3>
+          <p class="text-sm">
+            Send money to local bank accounts at low to no fees, instantly and
+            securely.
+          </p>
+        </div>
+      </section>
+      <section class="px-6 sm:px-20 md:px-32 lg:px-40">
+        <h4 class="font-semibold text-lg mt-12 lg:mt-20 mb-6 text-center">
+          We are trusted by
+        </h4>
+        <span
+          class="mx-11 gap-6 justify-between grid grid-cols-2 md:grid-cols-4"
+        >
+          <img src="./public/DSTV.png" alt="" />
+          <img src="./public/kuda.png" alt="" />
+          <img src="./public/safehaven.png" alt="" />
+          <img src="./public/monodat.png" alt="" />
+        </span>
+      </section>
+      <section
+        class="flex flex-col lg:flex-row-reverse gap-12 pt-28 pb-12 md:pb-44 md:pt-52 px-6 sm:px-20 md:px-32 lg:px-40 items-center"
+      >
+        <div class="font-semibold text-center md:text-left flex-1">
+          <h5 class="pb-4 text-lg md:text-2xl">
+            Thinking of the next bill to pay?
+          </h5>
+          <p class="md:text-[22px]">
+            Use Runam app to make seamless bills payment, send money instantly,
+            pay electricity and cable TV subscriptions and buy cheaper data.
+          </p>
+          <p>Runam also offers giftcards trading at best market rates.</p>
+        </div>
+        <div class="flex-1 w-10/12 lg:w-[120%] mx-auto">
+          <img
+            src="./public/thinking.png"
+            alt=""
+            class="w-10/12 mx-auto lg:w-full"
           />
         </div>
-        <div class="px-11 pt-11">
-          <h3
-            class="text-[#6A0D0D] text-center md:text-2xl font-black mb-4 md:my-12"
-          >
-            <span class="text-[#A66606]">Why choose</span> Runam?
-          </h3>
-          <div class="flex flex-col lg:flex-row gap-6">
-            <span class="pt-6 pb-12 bg-[#FDF9F9]">
-              <span
-                class="flex gap-2 font-medium justify-center pb-3 text-sm md:text-xl"
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="27"
-                  height="21"
-                  viewBox="0 0 27 21"
-                  fill="none"
-                >
-                  <path
-                    d="M22.1127 3.48428L13.485 1.10947C13.3809 1.08076 13.2412 1.06641 13.1016 1.06641C12.9619 1.06641 12.8223 1.08076 12.7182 1.10947L4.09043 3.48428C3.87969 3.5417 3.70703 3.73857 3.70703 3.91904V13.812C3.70703 13.9925 3.85176 14.2304 4.02695 14.3432L12.7791 19.8516C12.868 19.9069 12.9822 19.9356 13.099 19.9356C13.2158 19.9356 13.3326 19.9069 13.4189 19.8516L22.1711 14.3432C22.3463 14.2324 22.491 13.9945 22.491 13.812V3.91904C22.4961 3.73857 22.3234 3.54375 22.1127 3.48428ZM20.668 13.4183L13.1016 18.1802L5.53516 13.4183V4.64912L13.1016 2.56553L20.668 4.64912V13.4183ZM10.3314 10.8445L8.36367 12.4339C8.32587 12.4647 8.30466 12.5064 8.30466 12.5498C8.30466 12.5932 8.32587 12.6348 8.36367 12.6656L9.22695 13.3629C9.30566 13.4265 9.43516 13.4265 9.51387 13.3629L11.4816 11.7735C12.8959 12.4934 14.785 12.356 16.0164 11.3613C17.4459 10.2067 17.4459 8.33643 16.0164 7.18184C14.5869 6.02725 12.2713 6.02725 10.8418 7.18184C9.61035 8.17647 9.44023 9.7043 10.3314 10.8445ZM11.992 8.11084C12.7867 7.46895 14.074 7.46895 14.8662 8.11084C15.6609 8.75273 15.6609 9.79248 14.8662 10.4323C14.0715 11.0742 12.7842 11.0742 11.992 10.4323C11.1998 9.79043 11.1973 8.75273 11.992 8.11084Z"
-                    fill="black"
-                  />
-                </svg>
-                <p>Secured</p></span
-              >
-              <p class="mx-9 text-justify text-sm md:text-lg">
-                A secured web platform ensures the utmost protection for your
-                online activities, offering peace of mind in the digital realm.
-              </p>
-            </span>
-            <span class="pt-6 pb-12 bg-[#FDF9F9]">
-              <span
-                class="flex gap-2 font-medium justify-center pb-3 text-sm md:text-xl"
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="20"
-                  viewBox="0 0 16 20"
-                  fill="none"
-                >
-                  <path
-                    d="M12.4978 17.8486L14.4723 9.34863C14.5032 9.21556 14.5083 9.07557 14.4873 8.93967C14.4663 8.80377 14.4196 8.67565 14.351 8.56537C14.2825 8.4551 14.1938 8.36566 14.092 8.30409C13.9903 8.24253 13.8781 8.2105 13.7645 8.21053H9.5431C9.48259 8.21053 9.42285 8.19392 9.36835 8.16193C9.31385 8.12995 9.26598 8.08341 9.2283 8.0258C9.19063 7.96818 9.16413 7.90096 9.15077 7.82915C9.13741 7.75734 9.13754 7.68279 9.15115 7.61105L9.33499 6.64295C9.50339 5.75492 9.55744 4.84005 9.4953 3.93189L9.46147 3.43845C9.42523 2.90907 9.23594 2.41246 8.92723 2.03684C8.64484 1.69318 8.26181 1.50007 7.86241 1.5H7.77417C7.5326 1.5 7.31015 1.65926 7.19323 1.91605L6.21555 4.05671C5.77727 5.01677 5.12392 5.80566 4.33154 6.33158L1.88313 7.95553C1.76705 8.03259 1.6702 8.14632 1.60277 8.28473C1.53535 8.42314 1.49984 8.58111 1.5 8.742V17.6053C1.5 17.8426 1.57748 18.0701 1.71539 18.2379C1.85329 18.4057 2.04034 18.5 2.23537 18.5H11.7904C11.9505 18.4999 12.1062 18.4363 12.2339 18.3187C12.3616 18.2012 12.4543 18.0361 12.4978 17.8486Z"
-                    stroke="black"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
-                <p>Fast and efficient</p></span
-              >
-              <p class="mx-9 text-justify text-sm md:text-lg">
-                A fast and efficient web platform accelerates online
-                experiences, saving valuable time and enhancing productivity for
-                users.
-              </p>
-            </span>
-            <span class="pt-6 pb-12 bg-[#FDF9F9]">
-              <!-- <span
-              class="bg-[url('./public/eclipse.svg')] pt-6 pb-12 bg-center bg-contain bg-no-repeat"> -->
-              <span
-                class="flex gap-2 font-medium justify-center pb-3 text-sm md:text-xl"
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="28"
-                  height="23"
-                  viewBox="0 0 28 23"
-                  fill="none"
-                >
-                  <path
-                    d="M24.5264 8.3489C25.9327 7.15098 25.2914 5.75181 24.5264 5.0714L21.1514 2.1964C19.7339 0.998481 18.1027 1.54473 17.3039 2.1964L15.3914 3.83515H12.4777C10.3402 3.83515 9.10267 4.79348 8.47267 5.89556L3.47767 10.1506V13.9839L2.67892 14.6547C1.27267 15.8622 1.91392 17.2518 2.67892 17.9322L6.05392 20.8072C6.66142 21.3247 7.31392 21.5164 7.93267 21.5164C8.73142 21.5164 9.46267 21.181 9.90142 20.8072L12.9389 18.2101H16.9777C18.8902 18.2101 19.8577 17.1943 20.2064 16.1976C21.4777 15.9101 22.1752 15.086 22.4564 14.281C24.2002 13.8976 24.8527 12.4889 24.8527 11.5018V8.62681H24.1889L24.5264 8.3489ZM22.6027 11.5018C22.6027 11.9331 22.3889 12.4601 21.4777 12.4601H20.3527V13.4185C20.3527 13.8497 20.1389 14.3768 19.2277 14.3768H18.1027V15.3351C18.1027 15.7664 17.8889 16.2935 16.9777 16.2935H12.0164L8.32642 19.4368C7.97767 19.7147 7.77517 19.5518 7.65142 19.4464L4.28767 16.5906C3.96142 16.2935 4.15267 16.121 4.27642 16.0156L5.72767 14.7697V10.9364L7.97767 9.01973V10.5435C7.97767 11.7031 8.87767 13.4185 11.3527 13.4185C13.8277 13.4185 14.7277 11.7031 14.7277 10.5435H22.6027V11.5018ZM22.9289 6.98806L21.0164 8.62681H12.4777V10.5435C12.4777 10.9747 12.2639 11.5018 11.3527 11.5018C10.4414 11.5018 10.2277 10.9747 10.2277 10.5435V7.66848C10.2277 7.22765 10.4189 5.75181 12.4777 5.75181H16.3139L18.8789 3.56681C19.2277 3.2889 19.4302 3.45181 19.5539 3.55723L22.9177 6.41306C23.2439 6.71015 23.0527 6.88265 22.9289 6.98806Z"
-                    fill="black"
-                  />
-                </svg>
-                <p>Reliable</p></span
-              >
-              <p class="mx-9 text-justify text-sm md:text-lg">
-                Our platform is reliable and delivers consistent performance and
-                dependable service, fostering trust and satisfaction among
-                users.
-              </p>
-            </span>
-          </div>
-        </div>
       </section>
-      <section
-        class="px-11 py-12 flex flex-col gap-3 lg:gap-[4%] lg:flex-row lg:py-48"
-      >
-        <img
-          src="public/sponsorship.jpg"
-          alt="Sponsors welcome written on a blackboard"
-          class="lg:w-1/2"
-        />
-        <div class="flex flex-col gap-2 lg:w-1/2">
-          <h3 class="text-[#6A0D0D] lg:text-2xl font-black">
-            Movie <span class="text-[#A66606]">sponsorship program</span>
-          </h3>
-          <p>
-            Our Movie Production Sponsorship Program is your ticket to becoming
-            an integral part of the magic and glamour of the film industry. With
-            this unique opportunity, you can align your brand with captivating
-            storytelling and cinematic excellence.
-          </p>
-          <p>
-            Through this program, you'll have the chance to support the creation
-            of compelling movies that leave a lasting impact on audiences
-            worldwide. Your sponsorship not only fosters creativity but also
-            provides exposure to a diverse and engaged audience
-          </p>
-          <p>
-            We offer tailored sponsorship packages that can include exclusive
-            branding opportunities, on-screen acknowledgments, red-carpet
-            premieres, and behind-the-scenes access to the filmmaking process.
-            Your partnership will be showcased to industry insiders, media
-            outlets, and film enthusiasts alike.
-          </p>
-          <p>
-            Join us in the world of cinema, where your support plays a vital
-            role in bringing dreams to life on the silver screen. Elevate your
-            brand's visibility, engage with a passionate audience, and become a
-            part of the storytelling legacy through our Movie Production
-            Sponsorship Program.
-          </p>
+      <section class="bg-[#FFF8F8] py-14 px-12 sm:px-20 lg:px-28 md:pb-32">
+        <h2
+          class="font-semibold text-lg text-center mb-2.5 md:mb-16 md:text-2xl"
+        >
+          Why use Runam for bills payment?
+        </h2>
+        <div class="font-semibold text-sm grid lg:grid-cols-2 gap-6 lg:gap-12">
+          <div class="px-3 py-5 bg-white md:px-20 md:py-14 md:text-xl">
+            <h5 class="pb-5">Fast Transactions:</h5>
+            <p>
+              Pay bills and complete transactions in seconds, saving you
+              valuable time. Enjoy a smooth, intuitive interface that makes
+              payments hassle-free. Get instant confirmations and updates on all
+              your payments.
+            </p>
+          </div>
+          <div class="px-3 py-5 bg-white md:px-20 md:py-14 md:text-xl">
+            <h5 class="pb-5">Fast Transactions:</h5>
+            <p>
+              Pay bills and complete transactions in seconds, saving you
+              valuable time. Enjoy a smooth, intuitive interface that makes
+              payments hassle-free. Get instant confirmations and updates on all
+              your payments.
+            </p>
+          </div>
+          <div class="px-3 py-5 bg-white md:px-20 md:py-14 md:text-xl">
+            <h5 class="pb-5">Fast Transactions:</h5>
+            <p>
+              Pay bills and complete transactions in seconds, saving you
+              valuable time. Enjoy a smooth, intuitive interface that makes
+              payments hassle-free. Get instant confirmations and updates on all
+              your payments.
+            </p>
+          </div>
+          <div class="px-3 py-5 bg-white md:px-20 md:py-14 md:text-xl">
+            <h5 class="pb-5">Fast Transactions:</h5>
+            <p>
+              Pay bills and complete transactions in seconds, saving you
+              valuable time. Enjoy a smooth, intuitive interface that makes
+              payments hassle-free. Get instant confirmations and updates on all
+              your payments.
+            </p>
+          </div>
         </div>
       </section>
     </main>
-    <footer class="px-[10%] hidden lg:block pt-20 text-white">
+    <footer>
+      <div
+        class="bg-[#450E0E] lg:bg-[#4F0F0F] gap-16 pt-[38px] px-[52px] flex flex-col lg:flex-row lg:px-24 justify-between lg:mt-[105px] lg:mx-32 xl:mx-40"
+      >
+        <span class="flex-1">
+          <h3
+            class="text-lg text-center text-white md:text-3xl mb-4 md:mb-14 mt-8 lg:mt-[101px] font-Righteous"
+          >
+            Download Runam app
+          </h3>
+          <span
+            class="flex gap-3 justify-center items-center lg:w-[29vw] max-w-96 mx-auto lg:max-w-none lg:mx-0"
+          >
+            <a
+              class="xl:w-[390px] sm:w-56 w-28"
+              href="https://play.google.com/store/apps/details?id=shop.lootapp.lootapp&pcampaignid=web_share"
+              target="_blank"
+              ><img
+                class="w-full"
+                src="public/monodat-mobile.png"
+                alt="link to Loot app on play store"
+              />
+            </a>
+            <a
+              class="xl:w-[390px] sm:w-56 w-28"
+              href="https://apps.apple.com/ng/app/loots/id6479205023"
+              target="_blank"
+              ><img
+                src="public/apple-store.png"
+                alt="link to Loot app on app store"
+            /></a> </span
+        ></span>
+        <div class="mx-auto mt-10 w-9/12">
+          <img src="public/loot-dasboard.png" alt="" class="mx-auto" />
+        </div>
+      </div>
+      <div
+        class="bg-[#4F0F0F] text-white py-9 px-7 lg:mx-16 lg:mb-16 md:px-14 lg:px-36 text-xs md:text-base z-10"
+      >
+        <div class="flex flex-col xl:flex-row gap-7 xl:gap-36 justify-between">
+          <span class="w-4/5 xl:w-1/2">
+            <h3 class="slackey text-xs mb-2 lg:text-xl font-Slackey">Runam</h3>
+            <p>
+              Runam is a bills payment app that provides a seamless and secure
+              platform for managing your financial transactions. The app
+              revolutionizes the way users handle payments, offering a
+              convenient solution for paying bills, purchasing data, and
+              performing other essential transactions. With a user-focused
+              approach, Runam ensures a reliable and efficient experience,
+              empowering individuals to stay in control of their finances while
+              enjoying a hassle-free journey.
+            </p>
+          </span>
+          <ul class="space-y-2 lg:space-y-3 shrink w-max">
+            <h3 class="slackey text-xs mb-2 lg:text-xl lg:mb-3 font-Slackey">
+              Quick links
+            </h3>
+            <li>
+              <a class="hover:underline whitespace-nowrap" href="/about-us"
+                >About us</a
+              >
+            </li>
+            <li>
+              <a
+                class="hover:underline whitespace-nowrap"
+                href="/privacy-policy"
+                >Privacy policy</a
+              >
+            </li>
+            <li>
+              <a class="hover:underline whitespace-nowrap" href="/contact-us"
+                >Contact us</a
+              >
+            </li>
+          </ul>
+          <div class="text-xs lg:text-xl shrink">
+            <div>
+              <h3 class="slackey mb-4 lg:mb-5 whitespace-nowrap font-Slackey">
+                Connect with us
+              </h3>
+              <div class="flex gap-3 mb-5 lg:mb-8">
+                <a
+                  href="https://youtube.com/@runamstudio?si=rfdoITtAhJzGrSln"
+                  target="_blank"
+                >
+                  <img alt="youtube icon" src="./public/yt.png" />
+                </a>
+                <a
+                  href="https://www.facebook.com/profile.php?id=100091592025265&mibextid=LQQJ4d"
+                  target="_blank"
+                >
+                  <img alt="facebook icon" src="./public/fb.png" />
+                </a>
+                <a
+                  href="https://instagram.com/bash_anthoni?igshid=MzRlODBiNWFlZA=="
+                  target="_blank"
+                >
+                  <img alt="instagram icon" src="./public/in.png" />
+                </a>
+                <a href="mailto:info@runam.xyz"
+                  ><img alt="email icon" src="./public/mail.png"
+                /></a>
+              </div>
+              <h3 class="slackey mb-2 lg:mb-8 font-Slackey">Download app</h3>
+              <div class="flex gap-3">
+                <a href="#">
+                  <img
+                    alt="monostore icon"
+                    src="./public/monodat-mobile.png"
+                    class="w-16 h-7 lg:w-28 lg:h-12"
+                  />
+                </a>
+                <a
+                  href="https://apps.apple.com/ng/app/huntgame/id6502562121"
+                  target="_blank"
+                >
+                  <img
+                    alt="app store icon"
+                    src="./public/apple-store.png"
+                    class="w-16 h-7 lg:w-28 lg:h-12"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="righteous text-[#9E9E9E] text-center mt-[90px] mb-2">
+          <!-- <p class="font-extrabold">Huntgames limited</p> -->
+          <p class="text-xs">
+            © 2024, All rights reserved
+            <span class="text-sm">Runam and Runup technologies limited</span>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- <footer class="px-[10%] hidden lg:block pt-20 text-white">
       <div class="bg-[#5C0404] px-40 pt-14 pb-5">
         <div class="flex gap-2 justify-between md:text-sm">
           <span class="flex flex-col">
@@ -598,7 +552,7 @@
       <p class="text-center text-[#B3B3B3] text-[6px]">
         Copyright 2023 Runam and Runup technologies
       </p>
-    </footer>
+    </footer> -->
     <script type="module" src="./main.js"></script>
   </body>
 </html>
